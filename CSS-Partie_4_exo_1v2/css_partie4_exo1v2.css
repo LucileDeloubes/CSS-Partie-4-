@@ -1,0 +1,60 @@
+#mainContainer
+{
+    height: 360px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    padding-left: 5%;
+}
+.bloc1
+{
+    height: 100%;
+    background-color: crimson;
+}
+.bloc2
+{
+    height: 100%;
+    background-color: blue;
+}
+.bloc3
+{
+    height: 100%;
+    background-color: green;
+}
+.bloc4
+{
+    height: 100%;
+    background-color: darkgoldenrod;
+}
+.bloc5
+{
+    height: 100%;
+    background-color: grey;
+}
+.bloc6
+{
+    height: 100%;
+    background-color: brown;
+}
+.bloc7
+{
+    height: 100%;
+    background-color: orange;
+}
+.bloc8
+{
+    height: 100%;
+    background-color: turquoise;
+}
+.bloc9
+{
+    height: 100%;
+    background-color: red;
+}

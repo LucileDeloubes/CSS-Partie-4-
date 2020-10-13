@@ -1,12 +1,18 @@
 #mainContainer
 {
     display: grid;
-    grid-template: 
+    grid-template-areas: 
     'bloc1 bloc2 bloc3'
     'bloc4 bloc5 bloc6'
     'bloc7 bloc8 bloc9';
-    column-gap: 10px;
-    row-gap: 10px;
+    grid-gap: 15px;
+}
+p
+{
+    font-weight: bold;
+    color: white; 
+    align-items: center; 
+    padding-left: 20px;
 }
 .bloc1
 {
@@ -14,10 +20,7 @@
     grid-area: bloc1;
     background-color: darkred;
     height: 80px;
-    font-weight: bold;
-    color: white; 
-    align-items: center; 
-    padding-left: 20px;
+  
 }
 .bloc2
 {
@@ -25,11 +28,7 @@
     grid-area: bloc2;
     background-color: lightseagreen;
     height: 80px;
-    
-    font-weight: bold;
-    color: white; 
-    align-items: center; 
-    padding-left: 20px;
+
 }
 .bloc3
 {
@@ -37,11 +36,6 @@
     grid-area: bloc3;
     background-color: darkturquoise;
     height: 80px;
-    
-    font-weight: bold;
-    color: white; 
-    align-items: center; 
-    padding-left: 20px;
 }
 .bloc4
 {
@@ -49,11 +43,6 @@
     grid-area: bloc4;
     background-color: purple;
     height: 80px;
-    
-    font-weight: bold;
-    color: white; 
-    align-items: center; 
-    padding-left: 20px;
 }
 .bloc5
 {
@@ -61,11 +50,6 @@
     grid-area: bloc5;
     background-color: orange;
     height: 80px;
-    
-    font-weight: bold;
-    color: white; 
-    align-items: center; 
-    padding-left: 20px;
 }
 .bloc6
 {
@@ -73,11 +57,6 @@
     grid-area: bloc6;
     background-color: cornflowerblue;
     height: 80px;
-   
-    font-weight: bold;
-    color: white; 
-    align-items: center; 
-    padding-left: 20px;
 }
 .bloc7
 {
@@ -85,11 +64,6 @@
     grid-area: bloc7;
     background-color: lightcoral;
     height: 80px;
-    
-    font-weight: bold;
-    color: white; 
-    align-items: center; 
-    padding-left: 20px;
 }
 .bloc8
 {
@@ -97,11 +71,6 @@
     grid-area: bloc8;
     background-color: green;
     height: 80px;
-  
-    font-weight: bold;
-    color: white; 
-    align-items: center; 
-    padding-left: 20px;
 }
 .bloc9
 {
@@ -109,9 +78,4 @@
     grid-area: bloc9;
     background-color: navy;
     height: 80px;
-    
-    font-weight: bold;
-    color: white; 
-    align-items: center; 
-    padding-left: 20px;
 }
