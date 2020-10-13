@@ -1,0 +1,57 @@
+#maincontainer
+{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-areas:
+    'header header header'
+    'menu main right'
+    'menu footer footer';
+    background-color: pink;
+}
+#maincontainer > div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.header
+{
+    grid-area: header;
+    border: solid 1px red;
+}
+.menu
+{
+    grid-area: menu;
+    border: solid 1px red;
+}
+.main
+{
+    grid-area: main;
+    border: solid 1px red;
+}
+.right
+{
+    grid-area: right;
+    border: solid 1px red;
+}
+.footer
+{
+    grid-area: footer;
+    border: solid 1px red;
+}
+
+@media screen and (max-width : 640px)
+{
+    #maincontainer
+    {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+    }  
+    #maincontainer > div
+    {
+       height: 60px; 
+    }
+}
